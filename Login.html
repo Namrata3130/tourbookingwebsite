@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        body{
+            background:url(bg.jpg);
+        }
+        .login-form{
+            height: 310px;
+            width: 270px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            background: rgba(0,0,0,0.1);
+            box-shadow:0 0 20px black;
+            color: black;
+            padding-top: 60px;
+        }
+
+        .login h3{
+           letter-spacing: 1px;
+        }
+
+        input{
+            width: 200px;
+            margin-top: 20px;
+            background: transparent;
+            outline: none;
+            padding: 10px;
+            font-size: 13px;
+            border-radius: 30px;
+            box-shadow: 0 0 4px gold;
+            transition: box-shadow 0.5s ease;
+            color: black;
+        }
+
+        .btn{
+            padding: 5px 20px;
+            margin-top: 30px;
+            background: transparent;
+            border-radius: 30px;
+            box-shadow: 0 0 4px gold;
+            cursor: pointer;
+        }
+
+        input:focus .btn:hover{
+            box-shadow: 2 2 10px gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="login">
+               <h3>LogIn</h3>
+            </div>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Passsword">
+            <button class="btn" onclick="Login()">LogIn</button>
+
+            <p>New Account? <a href="signin.html">Sign In</a></p>
+        </div>
+    </div>
+    <script>
+        function Login(){
+            alert("Login successfuly");
+            window.location="index.html";
+        }
+    </script>
+</body>
+</html>

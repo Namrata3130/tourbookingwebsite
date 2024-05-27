@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>japan tour</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col" style="background-color:lavender;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="Bali/Bali tour1.jpeg" alt="Japan" style="width:100%;height:400px">
+                        </div>
+
+                        <div class="item">
+                            <img src="Bali/Bali tour2.jpeg" alt="Japan" style="width:100%; height:400px">
+                        </div>
+
+                        <div class="item">
+                            <img src="Bali/Bali tour4.jpg" alt="Japan" style="width:100%;height:400px">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col" style="background-color:white;">
+                <h1>Bali Tour</h1>
+                <h2>Traval| (9.7)<b>10</b>days</h2>
+                <h> cities</h1>
+                    <h2 style="font-size:20px; ">Tour id:</h2>
+                    <p style="font-size:15px; ">230556</p>
+                    <button onclick="moveto()" type="button " class="btn btn-primary btn-lg ">Book Tour</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <section class="section__container popular__container ">
+        <h1> Places You will See</h1>
+        <div class="popular__grid ">
+            <div class="popular__card ">
+                <img src="Bali/Bali tour4.jpeg" alt="popular hotel" style="height: 250px;" />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+
+                    </div>
+                </div>
+            </div>
+            <div class="popular__card ">
+                <img src="Bali/Bali tour2.jpeg" alt="popular hotel" style="height: 250px;" />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="popular__card ">
+                <img src="Bali/Bali tour1.jpeg" alt="popular hotel" style="height: 250px;" />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__container popular__container ">
+        <h1> Places You wll Stay</h1>
+        <div class="popular__grid ">
+            <div class="popular__card ">
+                <img src="hotel-4.jpg" alt="popular hotel " />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+                        <h1>
+                            <h1>sky hotel</h1>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="popular__card ">
+                <img src="hotel-6.jpg" alt="popular hotel " />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+                        <h1> Resort</h1>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="popular__card ">
+                <img src="hotel-5.jpg" alt="popular hotel " />
+                <div class="popular__content ">
+                    <div class="popular__card__header ">
+                        <h1>3star Hotel</h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <script>
+        function moveto(){
+            window.location="booking.html";
+        }
+    </script>
+</body>
+
+</html>
